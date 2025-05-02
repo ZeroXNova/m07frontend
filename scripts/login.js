@@ -14,7 +14,7 @@ async function login(username,password){
         password
     }
     // send login POST request to backend
-    const response = await fetch("https://rustic-festive-shirt.glitch.me/api/auth/",{
+    const response = await fetch("https://rustic-festive-shirt.glitch.me/api/auth",{
         method: "POST",
         headers:{
             "Content-Type" : "application/json"
